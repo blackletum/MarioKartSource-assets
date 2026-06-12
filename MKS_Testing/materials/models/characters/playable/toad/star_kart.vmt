@@ -1,0 +1,6 @@
+"PrettyColor"
+{
+	
+	"$baseTexture"			"models/characters/playable/toad/toadkart_texture"
+	"$model" 1
+}

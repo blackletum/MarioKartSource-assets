@@ -1,0 +1,6 @@
+"PrettyColor"
+{
+	"$baseTexture"	"models/characters/playable/luigi/luigikart_texture"
+	"$bumpmap"	 "models/characters/playable/luigi/luigikart_texture_normal"
+	"$model" 1
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "maps/mike_donut/big_donut_wall_lighted"
+	$normalmap "maps/mike_donut/big_donut_wall_normal"
+	//$selfillum 1
+}

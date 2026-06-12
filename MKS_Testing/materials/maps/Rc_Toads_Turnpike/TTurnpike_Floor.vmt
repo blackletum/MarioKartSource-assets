@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+	{
+	"$basetexture" "maps/Rc_Toads_Turnpike/TTurnpike_Floor"
+	"$bumpmap" "maps/Rc_Toads_Turnpike/TTurnpike_Floor_normal"
+	}

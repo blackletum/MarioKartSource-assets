@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "maps/blockfort/blockfort_wallbricks"
+	"$bumpmap" "maps/blockfort/blockfort_wallbricks_bump"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+	"%keywords" "mks"
+}

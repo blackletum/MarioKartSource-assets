@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/characters/playable/birdo/char"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.005 .05 .005]"
+	"$halflambert" "1"
+
+	
+	"$rimlight" "1"												
+	"$rimlightexponent" "4"										
+	"$rimlightboost" "4"	
+}

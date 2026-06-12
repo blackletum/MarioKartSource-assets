@@ -1,0 +1,7 @@
+"UnLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/items/lavaball/lavaball_texture"
+	"$selfIllum"			0
+	"$model" 1
+}

@@ -1,0 +1,20 @@
+mn_PhongEx
+{
+	"$basetexture" 	"models/sphere/bubble"
+	"$bumpmap"	"shared/n_flat"
+
+	"$envmap" 		"env_cubemap"
+
+	"$phong" 1
+	"$PHONGEXPONENT" "200"
+	"$PHONGBOOST" "5"
+
+	"$PHONGFRESNELRANGES" "[1 2 5]"
+	"$ENVMAPFRESNELRANGES" "[ 0 2 3]" //when using ps20 fallback this turns fresnle ON, 
+					//but only the last param is used for refl. strength
+
+
+	"$translucent" 1
+
+	"$model" 		1
+}

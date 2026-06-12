@@ -1,0 +1,7 @@
+"PrettyColor"
+{
+	"$basetexture" "models/characters/playable/yoshi/char"
+	"$colormap" "models/characters/playable/yoshi/s_char"
+	$model "1"
+}
+

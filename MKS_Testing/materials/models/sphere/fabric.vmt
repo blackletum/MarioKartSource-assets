@@ -1,0 +1,15 @@
+mn_PhongEx
+{
+	"$basetexture" 	"models/sphere/fabric"
+	"$bumpmap"	"models/sphere/fabric_normal"
+	
+	"$heightsample" 1
+	"$heighttexture" "models/sphere/fabric"
+
+	"$falloffdiffuse" "0.5"	//the ratio normal lighting -> falloff lighting
+				//NOTE that under ps20 fallback this is incompatible with envmap!
+	"$falloffdiffusestrength" "2.0"	// the strength of the falloff lighting
+	"$lightwarptexture" "models/sphere/lightgradient"	//in Alpha is the falloff transition map
+
+	"$model" 		1
+}

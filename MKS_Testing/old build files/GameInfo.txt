@@ -1,0 +1,41 @@
+"GameInfo"
+{
+	game		"MKS Testing"	//This is what displays in Steam's game menu.
+	title		""				//This is what is actually displayed in the game menu.
+	title2		""				//This is what is actually displayed in the game menu on the right side.
+	title3		""				//Omittable (Never actually tested with more than 2 titles)
+	title#		""				//Omittable (Never actually tested with more than 2 titles)
+	type		"multiplayer_only"		//Can also be multiplayer_only.
+							//Defines various UI elements and game rules.
+							//Omit for mods with both MP and SP.
+	fallback_dir	"MK_Testing"			//Untested function
+	nomodels	"0"				//Hides the crosshair selection menu in Options' Multiplayer tab.
+	nohimodel	"1"				//Unknown
+	nocrosshair	"1"				//Unknown
+	developer	"MKS Team"			//Your team's name (or just yours!)
+	developer_url	"http://www.mariokartsource.com/"	//Your team's home page. Must start with http://.
+	icon		"materials/console/logo"		//The icon must be an uncompressed TGA 16x16 pixels in size.
+							//The path is relative to the mod's installation directory
+							//(i.e where GameInfo.txt is) and should not include the TGA file extension
+	manual		"http://www.mariokartsource.com/forums/"	//Your team's game manual.
+
+
+	//UI Options
+	nocrosshair					"1"
+	nomodels					"1"
+
+
+	FileSystem
+	{
+
+		SteamAppId				215		// This will mount all the GCFs we need 215 = New Engine Thingy Thing!
+		ToolsAppId				211		// Tools will load this (ie: source SDK caches) to get things like materials\debug, materials\editor, etc.
+		SearchPaths
+		{
+			GameBin				|gameinfo_path|addons/metamod/bin
+			Game				|gameinfo_path|.
+			Game				hl2mp
+			Game				hl2
+		}
+	}
+}

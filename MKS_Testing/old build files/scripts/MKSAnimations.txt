@@ -1,0 +1,137 @@
+// sample animation script
+//
+//
+// commands:
+//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+//		variables:
+//			FgColor
+//			BgColor
+//			Size
+//			Position	(Position at center of image)
+//			Scale		(Scale width and height 1.0 = normal)
+//			ScaleW		(Scale Width only 	1.0 = normal)
+//			ScaleH 		(scale Height only 	1.0 = normal)
+//			Fade		(Alpha between 		0.0 and 1.0)
+//			Angle		(Angle to rotate Image 	0.0 is no rotate)
+//			
+//			Blur		(hud panels only)
+//			TextColor	(hud panels only)
+//
+//		interpolator:
+//			Linear
+//			Accel - starts moving slow, ends fast
+//			Deaccel - starts moving fast, ends slow
+//
+//	Visible <image name> <MoveToFront> <start time> <duration>
+//		Sets the panel to be visible at start time, for duration seconds.
+//
+//		Example:
+//		Visible PirateImg 0 0.0 1.5   //Don't push to front, and disappear in 1.5 sec.
+//		Visible GabenImg 1 0.2 1.0    //Push to front, appear in 0.2 seconds and disappear in 1 second
+//
+//	RunEvent <event name> <start time>
+//		starts another even running at the specified time
+//
+//	StopEvent <event name> <start time>
+//		stops another event that is current running at the specified time
+//
+//	StopAnimation <panel name> <variable> <start time>
+//		stops all animations refering to the specified variable in the specified panel
+//
+//	StopPanelAnimations <panel name> <start time>
+//		stops all active animations operating on the specified panel
+//
+//
+// Useful game console commands:
+//	cl_Animationinfo <hudelement name> or <panelname> 
+//		displays all the animatable variables for the hud element
+//
+
+
+//  Create Custom Images
+//  Usage:
+//	"FilePath" "Name" "Width" "Height" "X" "Y"
+//
+//  Examples:
+//	"misc/pirate.vmt" "Pirate" "128.0" "128.0" "0.5" "0.5"
+//	"vgui/hud/speedometer/needle.vmt" "Needle" 0 0 0.5 0.5
+//
+//  Note:
+//	Using 0 for width or height makes it use default image size.
+//	X and Y are between 0.0 and 1.0 from Left->Right and Top->Bottom
+//
+
+Images
+{
+	"vgui/hud/startscene/1" CountDown1a 100 100 0.5 0.5
+	"vgui/hud/startscene/1" CountDown1b 100 100 0.5 0.5
+	"vgui/hud/startscene/2" CountDown2a 100 100 0.5 0.5
+	"vgui/hud/startscene/2" CountDown2b 100 100 0.5 0.5
+	"vgui/hud/startscene/3" CountDown3a 100 100 0.5 0.5
+	"vgui/hud/startscene/3" CountDown3b 100 100 0.5 0.5
+	"vgui/hud/startscene/start" StartA 512 200 0.5 0.5
+	"vgui/hud/startscene/start" StartB 512 200 0.5 0.5
+	"vgui/hud/startscene/start-bright" StartBrightA 512 200 0.5 0.5
+	"vgui/hud/startscene/start-bright2" StartBrightB 512 200 0.5 0.5
+}
+
+
+event StartScene_CountDown1
+{
+	Animate CountDown1a Scale "1.5"	LINEAR 0.0 0.15
+	Animate CountDown1a Scale "1.0"	LINEAR 0.15 0.15
+	Animate CountDown1a Fade "1.0"	LINEAR 0.0 0.0
+	Animate CountDown1a Fade "0.0"	LINEAR 0.0 0.3
+		
+	Animate CountDown1b Scale "1.25" LINEAR 0.0 0.15
+	Animate CountDown1b Scale "1.0"	 LINEAR 0.15 0.15
+
+	Visible CountDown1a 1 0.0 1.0 //Stay visible for 1.0 sec
+	Visible CountDown1b 1 0.0 1.0 //Stay visible for 1.0 sec
+}
+
+event StartScene_CountDown2
+{
+	Animate CountDown2a Scale "1.5" LINEAR 0.0 0.15 //scale with/height to 1.25 in 1.15 sec
+	Animate CountDown2a Scale "1.0" LINEAR 0.15 0.15 //scale to 1.0, 0.15 secs later in 0.15 sec
+	Animate CountDown2a Fade "1.0" LINEAR 0.0 0.0 //set fade to 1.0 instantly
+	Animate CountDown2a Fade "0.0" LINEAR 0.0 0.3 //fade to 0 in 0.3 sec
+		
+	Animate CountDown2b Scale "1.25" LINEAR 0.0 0.15 //scale with/height to 1.25 in 1.15 sec
+	Animate CountDown2b Scale "1.0" LINEAR 0.15 0.15 //scale to 1.0, 0.15 secs later in 0.15 sec
+
+	Visible CountDown2a 1 0.0 1.0 //Stay visible for 1.0 sec
+	Visible CountDown2b 1 0.0 1.0 //Stay visible for 1.0 sec
+}
+
+event StartScene_CountDown3
+{
+	Animate CountDown3a Scale "1.5" LINEAR 0.0 0.15 //scale with/height to 1.25 in 1.15 sec
+	Animate CountDown3a Scale "1.0" LINEAR 0.15 0.15 //scale to 1.0, 0.15 secs later in 0.15 sec
+	Animate CountDown3a Fade "1.0" LINEAR 0.0 0.0 //set fade to 1.0 instantly
+	Animate CountDown3a Fade "0.0" LINEAR 0.0 0.3 //fade to 0 in 0.3 sec
+		
+	Animate CountDown3b Scale "1.25" LINEAR 0.0 0.15
+	Animate CountDown3b Scale "1.0" LINEAR 0.15 0.15
+
+	Visible CountDown3a 1 0.0 1.0 //Stay visible for 1.0 sec
+	Visible CountDown3b 1 0.0 1.0 //stay visible for 1.0 sec
+}
+
+event StartScene_Start
+{
+	//Grow big
+	Animate StartA ScaleW "0.0" ACCEL 0.0 0.0 //Set scalewidth to 0.0 instantly
+	Animate StartA ScaleH "0.0" ACCEL 0.0 0.0 //set scaleheight to 0.0 instantly
+
+	Animate StartA ScaleW "6.0" ACCEL 0.0 1.2 //Grow to scale width 6.0 in 1.2 sec
+	Animate StartA ScaleH "3.0" ACCEL 0.0 1.2 //Grow to scale height 3.0 in 1.2 sec
+
+	Animate StartA Fade 0.2 LINEAR 0.0 0.0 //Instantly set to 0.2 fade
+	Animate StartA Fade 1.0 LINEAR 0.0 0.5 //fade to 1.0 in 0.5 seconds
+	Animate StartA Fade 0.0 DEACCEL 0.6 0.7 //Slowly fade away after 0.6 for 0.7 seconds
+
+	Visible StartA 1 0.0 1.2 //Bring to front and display for 1.2 second.
+
+}
+

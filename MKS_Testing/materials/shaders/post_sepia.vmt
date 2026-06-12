@@ -1,0 +1,23 @@
+"Post_Sepia"
+{
+	"$fbtexture" "_rt_FullFrameFB"
+	"$fademap" "shaders/fademap"
+
+	"$speed" "1"
+	"Proxies"
+	{
+		"PlayerSpeed"
+		{
+			"resultVar"	"$speed"
+			"scale"	1
+		}
+		"FadeHelper"
+		{
+			"MaxResult" "$maxspeed"
+			"XResult" "$xamount"
+			"YResult" "$yamount"
+			"TurnAmount" "$turnamt"
+		}
+	}
+	
+}

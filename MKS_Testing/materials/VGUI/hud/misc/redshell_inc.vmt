@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/HUD/misc/redshell_inc"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

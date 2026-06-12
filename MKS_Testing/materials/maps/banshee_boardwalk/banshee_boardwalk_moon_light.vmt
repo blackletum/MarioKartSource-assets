@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$basetexture" "maps/banshee_boardwalk/banshee_boardwalk_moon_light"
+	//"$normalmap" "maps/banshee_boardwalk/banshee_boardwalk_moon_light"
+	"$translucent" 1
+}

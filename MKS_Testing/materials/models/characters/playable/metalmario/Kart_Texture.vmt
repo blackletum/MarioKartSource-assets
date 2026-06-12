@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models/characters/playable/mario/Kart_Texture"
+	"$bumpmap" "models/characters/playable/mario/Kart_texture_normal"
+	"$model" 1
+}

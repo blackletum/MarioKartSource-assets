@@ -1,0 +1,11 @@
+mn_PhongEx
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/characters/playable/mario/char"
+	"$bumpmap"  			"models/characters/playable/mario/char_normal"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.005 .05 .005]"
+}

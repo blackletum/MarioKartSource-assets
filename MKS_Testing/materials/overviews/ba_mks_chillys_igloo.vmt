@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$translucent" "1"
+	"$basetexture" "overviews/ba_mks_chillys_igloo"
+	"$vertexalpha" "1"
+	"$no_fullbright" "1"
+	"$ignorez" "1"
+}

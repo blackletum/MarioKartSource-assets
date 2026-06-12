@@ -1,0 +1,16 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 22.02.2010 23:50:07
+
+newmtl Material__27
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.299880 0.299880 0.299880
+	map_Ka D:\Clients\MarioKartSource\MK_Testing\modelsrc\Slamin\sourceimages\luigi_difuse.tga
+	map_Kd D:\Clients\MarioKartSource\MK_Testing\modelsrc\Slamin\sourceimages\luigi_difuse.tga

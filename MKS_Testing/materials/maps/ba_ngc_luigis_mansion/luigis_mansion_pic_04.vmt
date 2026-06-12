@@ -1,0 +1,7 @@
+Decal
+{
+	$basetexture "maps/ba_ngc_luigis_mansion/luigis_mansion_pic_04"
+	$decal 1
+	$decalscale 2
+	$translucent 1
+}

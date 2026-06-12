@@ -1,0 +1,22 @@
+mn_PhongEx
+{
+	"$basetexture" 	"models/sphere/fuzzy"//make sure you have neither pure white nor pure black Alpha here in order to turn transp. ON!
+	"$bumpmap"	"shared/n_flat"
+
+	"$phong" 1
+	"$PHONGEXPONENT" "5"
+//	"$phongboost" "1.5"
+
+	"$usephongcolortexture" 1
+	"$HxEM" "models/sphere/fuzzy_HxEM"
+	
+
+	"$translucent" 1
+//	"$additive" 1
+	"$falloffalpha"	"1.0"	//normal transparecy -> normal transp.* falloff transp.
+				//NOTE that neg values now reverse the effect
+				//under ps20 fallback this turns falloff on, but has no effect on the strength
+	"$lightwarptexture" "models/sphere/toon" //in Alpha is the falloff transition map
+	
+	"$model" 		1
+}

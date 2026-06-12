@@ -1,0 +1,6 @@
+"PrettyColor"
+{
+	"$basetexture" "models/characters/playable/drybones/char"
+	"$colormap" "models/characters/playable/drybones/s_char"
+	$model "1"
+}

@@ -1,0 +1,5 @@
+"AlphaMap"
+{
+ 	"$basetexture" "overviews/alphamap"
+	"$maintexture" "_rt_Camera"
+}

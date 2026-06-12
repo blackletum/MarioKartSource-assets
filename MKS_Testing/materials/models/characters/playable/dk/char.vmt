@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/characters/playable/dk/char"
+	$model "1"
+	"$bumpmap"  			"models/characters/playable/dk/char_bump"
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.005 .005 .005]"
+	"$halflambert" "1"
+
+	
+	"$rimlight" "1"												
+	"$rimlightexponent" "4"										
+	"$rimlightboost" "4"
+}

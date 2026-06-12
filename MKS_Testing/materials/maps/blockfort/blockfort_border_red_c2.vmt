@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "maps/blockfort/blockfort_border_red_c2"
+	"$surfaceprop" "Concrete"
+	"%keywords" "mks"
+}

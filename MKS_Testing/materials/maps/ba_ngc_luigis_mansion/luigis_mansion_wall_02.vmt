@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+	$basetexture "maps/ba_ngc_luigis_mansion/luigis_mansion_wall_02"
+	$bumpmap "maps/ba_ngc_luigis_mansion/luigis_mansion_wall_02_normal"
+}

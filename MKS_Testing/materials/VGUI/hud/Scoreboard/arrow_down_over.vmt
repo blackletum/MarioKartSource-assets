@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/hud/Scoreboard/arrow_down_over"
+	"$translucent" 1
+}

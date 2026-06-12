@@ -1,0 +1,8 @@
+"UnLitGeneric"
+{
+	"$basetexture" "models/items/lavaball/aura_texture"
+	"$translucent"			1
+	"$alpha"				1
+	"$nocull" 1
+	"$model" 1
+}

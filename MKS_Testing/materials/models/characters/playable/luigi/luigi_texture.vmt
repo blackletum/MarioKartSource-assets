@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/characters/playable/luigi/luigi_texture"
+	"$bumpmap" "models/characters/playable/luigi/luigi_texture_normal"
+
+	"$phong" "1"
+	//	"$phongexponent" 33
+	"$phongexponenttexture"		"models/characters/playable/luigi/luigi_texture"
+
+	"$phongboost"	"0.8"
+	"$phongfresnelranges"	"[0 0.8 0]"
+
+}

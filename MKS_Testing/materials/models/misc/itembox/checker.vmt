@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"			"models/weapons/itembox/checker"
+	"$envmap" "env_cubemap"
+	"$translucent"			1
+	"$additive" 1
+}

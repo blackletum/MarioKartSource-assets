@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+	{
+	"$basetexture" "maps/Rc_Toads_Turnpike/TTurnpike_bridge_red"
+	"$bumpmap" "maps/Rc_Toads_Turnpike/TTurnpike_bridge_normal"
+       	"$envmap"	"env_cubemap"
+	"$envmaptint" "[.3 .3 .3]"
+
+    "lightmappedgeneric_HDR_dx9"
+      {
+      "$bumpmap" "maps/Rc_Toads_Turnpike/TTurnpike_wall_normal"
+      "$normalmapalphaenvmapmask" 1
+      "$envmaptint" "[ .01 .01 .01]"
+      }
+	}

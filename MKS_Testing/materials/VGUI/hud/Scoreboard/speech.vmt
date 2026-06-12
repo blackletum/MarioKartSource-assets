@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/hud/Scoreboard/speech"
+	"$translucent" 1
+}

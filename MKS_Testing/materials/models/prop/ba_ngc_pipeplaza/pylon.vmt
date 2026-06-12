@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"maps/ba_ngc_pipeplaza/pylon"
+	"$bumpmap" 			"maps/ba_ngc_pipeplaza/pylon_normal"
+}

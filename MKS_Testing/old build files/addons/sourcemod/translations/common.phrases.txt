@@ -1,0 +1,56 @@
+"Phrases"
+{
+	"No matching client"
+	{
+		"en"			"No matching client was found."
+	}
+	
+	"More than one client matches"
+	{
+		"#format"		"{1:s}"
+		"en"			"More than one client matches the pattern \"{1}\""
+	}
+	
+	"Kicked player"
+	{
+		"#format"		"{1:s}"
+		"en"			"Kicked player '{1}'"
+	}
+	
+	"Changing map"
+	{
+		"#format"		"{1:s}"
+		"en"			"Changing map to {1}..."
+	}
+	
+	"Map was not found"
+	{
+		"#format"		"{1:s}"
+		"en"			"Map {1} was not found."
+	}
+	
+	"Unable to target"
+	{
+		"en"			"You cannot target this player."
+	}
+	
+	"Name"
+	{
+		"en"			"Name"
+	}
+	
+	"Access"
+	{
+		"en"			"Access"
+	}
+	
+	"See console for output"
+	{
+		"en"			"See console for output."
+	}
+	
+	"Cannot target bot"
+	{
+		"en"			"Unable to perform this command on a bot."
+	}
+}

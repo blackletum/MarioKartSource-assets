@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "maps/blockfort/blockfort_floor_light_border"
+	"$bumpmap" "maps/blockfort/blockfort_floor_light_border_n"
+	"%keywords" "mks"
+}

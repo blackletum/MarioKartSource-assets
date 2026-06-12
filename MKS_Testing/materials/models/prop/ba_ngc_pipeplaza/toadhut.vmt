@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/prop/ba_ngc_pipeplaza/toadhut"
+	"$nocull"				1
+}

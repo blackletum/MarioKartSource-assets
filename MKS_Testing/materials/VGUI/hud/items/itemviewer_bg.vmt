@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+    "$basetexture" "VGUI/hud/items/itemviewer_bg"
+	"$ignorez" "1"
+}

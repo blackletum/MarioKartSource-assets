@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/characters/playable/mario/kart"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "1"	
+	//"$phongfresnelranges"	"[1 2 5]"
+	"$phongfresnelranges"	"[2 4 10]"	
+}

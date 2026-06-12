@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/banana/banana"
+	"$surfaceprop" "Default"
+	"$translucent" 1
+}

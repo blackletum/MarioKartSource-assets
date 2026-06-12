@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$color"			"[1 1 1]"
+	"$baseTexture"			"models/props/trees/treeguy_texture"
+	"$translucent"			1
+	"$alphatest" 			1
+	"$nocull"			1
+}

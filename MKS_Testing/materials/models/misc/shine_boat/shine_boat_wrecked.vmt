@@ -1,0 +1,8 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models/misc/shine_boat/shine_boat_wrecked"
+        "$bumpmap" "models/misc/shine_boat/shine_boat_wrecked_bump"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"        
+
+}

@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "maps/doubledeck/doubledeck_floorgreen2"
+	"$bumpmap" "maps/doubledeck/doubledeck_floorgreen2_bump"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+	"%keywords" "mks"
+}

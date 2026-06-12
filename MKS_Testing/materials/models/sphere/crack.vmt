@@ -1,0 +1,25 @@
+mn_PhongEx
+{
+	"$basetexture" 	"models/sphere/crack"
+	"$bumpmap"	"models/sphere/crack_normal"
+
+
+	"$heightsample"	 1	//can also try 2
+
+	"$heightscale" 	"1.0"	//max
+	//"$heightfalloff" "1.0"	// the default
+	//"$heightfallofflight"	"0.05"
+
+	"$phong" 1
+	"$PHONGEXPONENT" "2"
+	"$phongboost" "0.15"
+	
+	"$usephongcolortexture" 1
+	"$HxEM" "models/sphere/crack_HxEM"
+	
+	"$heighttexture" "models/sphere/crack_HxEM" 
+//"$halflambert" 1
+
+
+	"$model" 		1
+}

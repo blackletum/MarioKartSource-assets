@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "maps/rc_delfino_floats/float_road_side_checker"
+	"$bumpmap" "maps/rc_delfino_floats/float_road_side_checker_bump"
+}

@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "maps/ba_n64_doubledeck/doubledeck_floorred1"
+	"$bumpmap" "maps/ba_n64_doubledeck/doubledeck_floorred1_bump"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+}

@@ -1,0 +1,17 @@
+"PrettyColor"
+{
+	"$basetexture" "models/characters/playable/wario/char"
+	"$colormap" "models/characters/playable/wario/s_char"
+	
+	$model "1"
+	"$alpha"				1
+	"$brightness" 	"1.0"
+	"Proxies"
+	{
+		"Brightness"
+		{
+			"Brightness"	"$brightness"
+		}
+	}
+
+}

@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/prop/rc_babypark/BP_Skybox_Koopahead"
+       	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+	"$alphatest"	1
+	"$nocull"		1
+}

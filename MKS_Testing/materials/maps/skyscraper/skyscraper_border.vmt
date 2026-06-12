@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "maps/skyscraper/skyscraper_border"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+	"%keywords" "mks"
+}

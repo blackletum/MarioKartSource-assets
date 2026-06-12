@@ -1,0 +1,22 @@
+mn_PhongEx
+{
+	"$basetexture" 	"models/plate/plate"
+	"$bumpmap"	"models/plate/plate_normal"
+
+	"$heightsample"	1 //can also try 2 but it will be w/o shadows
+	"$heighttexture" 	"models/plate/plate_HxEM"	// 	this is now the heighttex		
+	//"$heightscale"	"0.5"	//the default
+	"$heightfalloff"	"0.0"	//this is a flat surface!
+	"$heightfallofflight"	"0.0"	//this is a flat surface!
+
+	"$heightshadow" 1	//this turns height shadows ON but will turn envmap and mnselfillum OFF
+	"$heightshadowtint" "[1.5 0.33 0.33]"	// note that  1 1 1 means no shadow
+
+	"$phong" 1
+	"$phongexponent" "100"
+
+	"$envmap" 		"env_cubemap"
+	"$ENVMAPFRESNELRANGES" "[ 0.05 0.5 1]"
+
+	"$model" 		1
+}

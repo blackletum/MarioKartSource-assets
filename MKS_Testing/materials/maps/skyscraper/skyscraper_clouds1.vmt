@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "maps/skyscraper/skyscraper_clouds1"
+	"$translucent" 1
+	"%keywords" "mks"
+}

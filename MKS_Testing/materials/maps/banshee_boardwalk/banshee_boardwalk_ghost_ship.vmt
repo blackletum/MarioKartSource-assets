@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "maps/banshee_boardwalk/banshee_boardwalk_ghost_ship"
+	//"$normalmap" "maps/banshee_boardwalk/banshee_boardwalk_ghost_ship"
+	"$translucent" 1
+}

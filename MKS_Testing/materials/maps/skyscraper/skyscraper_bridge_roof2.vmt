@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "maps/skyscraper/skyscraper_bridge_roof2"
+	"$selfillum" 1
+	"%keywords" "mks"
+}

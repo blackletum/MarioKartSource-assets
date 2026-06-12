@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "maps/pipeplaza/pipeplaza_floor"
+	"$bumpmap" "maps/pipeplaza/pipeplaza_floor_normal"
+	"$surfaceprop" "Concrete"
+	"%keywords" "mks"
+}

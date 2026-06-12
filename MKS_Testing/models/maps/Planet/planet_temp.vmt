@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "models/maps/Planet/planet_temp"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+	"$surfaceprop" "sticky"
+}

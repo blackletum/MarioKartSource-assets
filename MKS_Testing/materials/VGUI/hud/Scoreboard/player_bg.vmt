@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/hud/Scoreboard/player_bg"
+	"$translucent" 1
+}

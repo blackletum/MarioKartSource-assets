@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/mks_sun"
+	//"$additive" "1"
+	"$translucent" "1"
+	//"$vertexcolor" "1"
+	"$ignorez" "1"
+}
+

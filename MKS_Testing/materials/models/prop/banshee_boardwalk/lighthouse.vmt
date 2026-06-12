@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/prop/banshee_boardwalk/lighthouse"
+        "$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+	"$alphatest" 1
+	"$nocull" 1
+}

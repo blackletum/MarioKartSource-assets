@@ -1,0 +1,20 @@
+mn_PhongEx
+{
+	"$baseTexture"			"models/misc/balloon/Balloon_texture"
+	"$bumpmap"	"shared/n_flat"
+
+	"$phong" 1
+	"$PHONGEXPONENT" "5"
+	"$PHONGBOOST" "2"
+
+
+	"$translucent" 1
+
+	"$model" 		1
+	"$halflambert" 1
+
+	"$mnselfillum" 1
+	"$falloffselfillum" "0.930"
+	"$selfillumtint" "[.3 .3 .8]"
+	"$lightwarptexture" "models/sphere/lightgradient"
+}

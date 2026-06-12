@@ -1,0 +1,16 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/characters/playable/peach/char"
+	"$bumpmap"  			"models/characters/playable/peach/char_bump"
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.02 .02 .02]"
+	"$halflambert" "1"
+
+	
+	"$rimlight" "1"												
+	"$rimlightexponent" "4"										
+	"$rimlightboost" "4"
+}

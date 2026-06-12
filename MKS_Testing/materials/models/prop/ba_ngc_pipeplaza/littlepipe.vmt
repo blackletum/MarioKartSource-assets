@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/prop/ba_ngc_pipeplaza/littlepipe"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .3 .3 .3 ]"
+}

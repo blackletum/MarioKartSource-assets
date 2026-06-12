@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+	$basetexture "maps/ba_ngc_luigis_mansion/luigis_mansion_thunder_01"
+	$translucent 1
+}

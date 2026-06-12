@@ -1,0 +1,58 @@
+"Games"
+{
+	"#default"
+	{
+		"Offsets"
+		{
+			"GetDataDescMap"
+			{
+				"windows"		"13"
+				"linux"			"14"
+			}
+		}
+	}
+	
+	"ship"
+	{
+		"Offsets"
+		{
+			"GetDataDescMap"
+			{
+				"windows"		"18"
+				"linux"			"19"
+			}
+		}
+	}
+
+	"cstrike"
+	{
+		"Keys"
+		{
+			"HudRadioMenuMsg"		"ShowMenu"
+		}
+	}
+
+	"dod"
+	{
+		"Keys"
+		{
+			"HudRadioMenuMsg"		"ShowMenu"
+		}
+	}
+
+	"sourceforts"
+	{
+		"Keys"
+		{
+			"HudRadioMenuMsg"		"ShowMenu"
+		}
+	}
+	
+	"!Insurgency"
+	{
+		"Keys"
+		{
+			"HudRadioMenuMsg"		"ShowMenu"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "maps/pipeplaza/pipeplaza_greenwall"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .3 .3 .3 ]"
+	"%keywords" "mks"
+}

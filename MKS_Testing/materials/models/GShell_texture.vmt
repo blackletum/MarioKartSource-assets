@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$color"			"[1 1 1]"
+	"$baseTexture"			"models/GShell_texture"
+      "$bumpmap" "models/Shell_texture_bump"
+	"$normalmapalphaenvmapmask" "1"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+
+	
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.2 .4 1.2]"
+	"$halflambert" "1"
+
+	
+	"$rimlight" "1"												
+	"$rimlightexponent" "4"										
+	"$rimlightboost" "4"	
+}

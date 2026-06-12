@@ -1,0 +1,14 @@
+ba_n64_blockfort
+ba_n64_doubledeck
+ba_n64_bigdoughnut
+ba_mks_bowser_arena
+ba_n64_skyscraper
+ba_ngc_luigi_mansion
+ba_ngc_pipe_plaza
+ba_sm64_princess_peach_castle
+ba_mkdd_baby_park
+ba_mks_delfino_square
+mks_ba_spacecradle
+
+
+

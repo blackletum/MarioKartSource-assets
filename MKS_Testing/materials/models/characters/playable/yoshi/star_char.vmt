@@ -1,0 +1,5 @@
+"PrettyColor"
+{
+	"$baseTexture"			"models/characters/playable/yoshi/yoshi_texture"
+	"$model" 1
+}

@@ -1,0 +1,6 @@
+"PrettyColor"
+{
+	"$basetexture" "models/characters/playable/koopa/char"
+	"$colormap" "models/characters/playable/koopa/s_char"
+	$model "1"
+}

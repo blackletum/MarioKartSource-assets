@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+    "$basetexture" "VGUI/hud/items/item_babomb"
+    "$translucent" "1"
+   // "nomip" "1"
+   // "nocompress" "1"
+   // "$nocull" "0"
+    //"nolod" "1"
+	"$ignorez" "1"
+}

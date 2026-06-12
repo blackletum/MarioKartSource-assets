@@ -1,0 +1,222 @@
+
+"Kart.Boing"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"soundfx/kart/boing.wav"
+	
+}
+
+"Kart.FallGib"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"common/null.wav"
+	
+}
+
+"Kart.AmbientUnderWater"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"common/null.wav"
+	
+}
+
+"Kart.DrownStart"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"common/null.wav"
+	
+}
+
+"BaseEntity.EnterWater"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"common/null.wav"
+	
+}
+
+"BaseEntity.ExitWater"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"common/null.wav"
+	
+}
+
+"Kart.FallDamage"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"common/null.wav"
+	
+}
+
+"Kart.Death"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"common/null.wav"
+	
+}
+
+"Kart.WaterWade"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.3"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"common/null.wav"
+	
+}
+
+"Kart.Up1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"kart/speed_up1.wav" 
+}
+
+"Kart.Up2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"kart/speed_up2.wav" 
+}
+
+
+"Kart.Up3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"kart/speed_up3.wav" 
+}
+
+"Kart.Up4"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"kart/speed_up4.wav" 
+}
+
+
+"Kart.Down1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"wave"			"kart/slow_down1.wav" 
+}
+	
+
+"Kart.Down2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"wave"			"kart/slow_down2.wav" 
+}
+"Kart.Down3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"	
+	"wave"			"kart/slow_down3.wav" 
+}
+"Kart.Down4"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"wave"			"kart/slow_down4.wav" 
+}
+"Kart.FullThrottle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"CompatibilityAttenuation" 	"1.0"
+	"pitch"			"PITCH_NORM"
+	"wave"			"kart/full_throttle.wav"
+}
+"Kart.Idle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"kart/idle.wav" 
+}
+
+"Kart.WallBump1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"kart/player_bumping2.wav" 
+}
+
+"Kart.WallBump2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"kart/wallbump.wav" 
+}

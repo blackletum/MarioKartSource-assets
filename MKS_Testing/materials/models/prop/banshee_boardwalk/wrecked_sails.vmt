@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models/prop/banshee_boardwalk/wrecked_sails"        
+        "$alphatest" 1
+        "$nocull" 1
+}

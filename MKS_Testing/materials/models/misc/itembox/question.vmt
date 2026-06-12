@@ -1,0 +1,9 @@
+"unlitGeneric"
+{
+	"$model"				1
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/weapons/itembox/question"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alphatest"			1
+}

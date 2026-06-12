@@ -1,0 +1,22 @@
+mn_PhongEx
+{
+	"$baseTexture"			"models/characters/playable/metalmario2/kart"
+	"$bumpmap"				"models/characters/playable/metalmario2/kart_normal"
+
+	"$envmap" 		"models\characters\playable\metalmario2\envmap"
+	"$envmaptint" "[.4 .4 .4]"
+	"$envmapcontrast"  1
+	"$envmapsaturation" "0"
+
+
+	"$phong" 1
+	"$PHONGEXPONENT" "20"
+	"$PHONGBOOST" "30"
+
+	"$PHONGFRESNELRANGES" "[1 2 5]"
+	"$ENVMAPFRESNELRANGES" "[1 5 10]" //when using ps20 fallback this turns fresnel ON, 
+					//but only the last param is used for refl. strength
+
+	"$model" 		1
+	"$halflambert" 1							
+}

@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/characters/playable/metalmario/kart"
+
+	"$surfaceprop" "metal"
+
+	"$envmap" 		"models\characters\playable\metalmario\envmap"
+	"$envmaptint" "[.5 .5 .5]"
+	//"$envmapcontrast"  1
+	"$envmapsaturation" "0"
+
+
+
+	"$phong" 1
+	"$PHONGEXPONENT" "8"
+	//"$PHONGBOOST" "4"
+
+	"$PHONGFRESNELRANGES" "[1 2 5]"									
+}

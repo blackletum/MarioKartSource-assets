@@ -1,0 +1,21 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "2637"
+	"mapversion" "1"
+	"prefab" "0"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "0"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_wasteland02"
+}

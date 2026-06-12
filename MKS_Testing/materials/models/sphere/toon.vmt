@@ -1,0 +1,17 @@
+mn_PhongEx
+{
+	"$basetexture" 	"shared/gray50"
+	"$bumpmap"	"shared/n_flat"
+
+
+	//note that $phnog 1 is no longer needed for lightwarp
+
+	"$uselightwarp" 1
+	"$LIGHTWARPTEXTURE" "models/sphere/toon"
+
+	"$uselightwarpmask" 1
+	"$heighttexture" "models/sphere/n_noise_h_noise" //Alpha is used for the warpmask, if mnselfillum - Red is used
+
+	"$halflambert" 	1
+	"$model" 		1
+}

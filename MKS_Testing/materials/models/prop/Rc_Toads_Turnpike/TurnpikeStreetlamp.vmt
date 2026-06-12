@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/prop/rc_toads_turnpike/turnpikeStreetlamp"
+       	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+}

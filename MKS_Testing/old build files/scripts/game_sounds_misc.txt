@@ -1,0 +1,25 @@
+//Game Hud Stuff
+"HudChat.Message"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"common/null.wav"
+	
+}
+
+"SprayCan.Paint"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"common/null.wav"
+	
+}
+

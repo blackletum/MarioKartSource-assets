@@ -1,0 +1,94 @@
+//===================== MarioKart: Source FDG File Info ======================
+//
+// Purpose: Definition file for MarioKart: Source (.fgd)
+// Version: 1.34
+//
+//============================================================================
+
+// Include default .fgd for original info
+@include "base.fgd"
+@include "halflife2.fgd"
+@include "sdk.fgd"
+
+//============================================================================
+//
+// Start of Custom information
+//
+//============================================================================
+
+@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = mks_player_spawn :
+	"This is the MKS Spawn point."
+[
+]
+
+@PointClass base(PlayerClass, Angles) studio("") = mks_info_funcfall :
+	"This entity indicates the position and direction to face for the player when respawning from falling and or getting stuck."
+[
+]
+
+@PointClass base(PlayerClass, Angles) studio("models/itembox/itembox.mdl") = mks_itembox :
+	"This is the item box that will trigger the lottery for players."
+[
+]
+
+@PointClass base(Targetname, Parentname) color(200 50 0)  size(-8 -8 -8, 8 8 8) = mks_particles : 
+	"An entity that creates a particles." 
+[
+
+	input Toggle(void) : "Toggles the spawner enabled/disabled state."
+	input Scale(void) : "Scales the particles."
+
+	scale(float) : "Starting particle size" : "15" : "Starting particle size."
+
+]
+
+@SolidClass base(Targetname) = mks_func_fall : "For when falling and need teleportation."
+[
+]
+
+@SolidClass base(Targetname) = mks_outofbounds : "For when they are out of bounds on the map."
+[
+	scale(float) : "Time Limit(Seconds)" : "10" : "This is how long lakitu will wait untill he picks them up."
+]
+
+@SolidClass base(Targetname) = mks_trigger_boost : "Boost! Woohoo."
+[
+	scale(float) : "Boost Speed" : "35" : "This is the amount of boost it will add to the player."
+]
+
+@SolidClass base(Trigger) = mks_trigger_push : 
+	"A trigger volume that pushes entities that touch it."
+[
+	pushdir(angle) : "Push Direction (Pitch Yaw Roll)" : "0 0 0" : "Angles indicating the direction to push touched entities."
+	updir(float) : "Up speed" : "0" : "Up velocity added to kart."
+	gravity(float) : "Gravity" : "1.0" : "Kart Gravity, resets when player touches ground!"
+	
+	spawnflags(flags) = 
+	[ 
+		128: "Once Only" : 0
+		256: "Affects Ladders (Half-Life 2)" : 0 
+	]
+	
+	speed(integer) : "Speed of Push" : 40 : "The speed at which to push entities away, in inches / second."
+]
+
+@SolidClass base(Trigger) = mks_trigger_teleport : 
+	"A trigger volume that teleports entities that touch it. Entities are teleported to the Remote Destination, and have their angles "+
+	"set to that of the Remote Destination's. If a Local Destination Landmark is specified, teleported entities are offset from the target "+
+	"by their initial offset from the landmark, and their angles are left alone."
+[
+	target(target_destination) : "Remote Destination" : : "The entity specifying the point to which entities should be teleported."
+	landmark(target_destination) : "Local Destination Landmark" : : "If specified, then teleported entities are offset from the target by their initial offset from the landmark."
+	speed(float) : "Speed" : "0" : "Speed after teleported."
+	updir(float) : "Up speed" : "0" : "Up velocity added to kart after teleport."
+	gravity(float) : "Gravity" : "1.0" : "Kart Gravity after teleport. Resets when player touches ground."
+	spawnflags(flags) =
+	[
+		32: "Preserve angles even when a local landmark is not specified" : 0
+	]
+]
+
+@SolidClass base(Targetname) = mks_checkpoint : "Check Points: 0=Start/Finish"
+[
+	index(integer) : "Checkpoint Index" : 0 : "Used for checkpoints in racing maps. 0 = Start/Finish line, every other checkpoints must be numbered in order"
+]

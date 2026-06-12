@@ -1,0 +1,32 @@
+
+//Shell
+"Shell.Fire"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"soundfx/shell/fire.wav" 
+}
+
+"Shell.HitWall"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"soundfx/shell/hit_wall.wav" 
+}
+
+//Banana
+"Banana.Fire"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"soundfx/banana/fart.wav" 
+}

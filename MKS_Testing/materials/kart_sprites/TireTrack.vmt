@@ -1,0 +1,15 @@
+//"DecalModulate"
+//{
+//	"$basetexture" "kart_sprites/TireTrack"
+//	"$decalscale" 0.6
+//
+
+"lightmappedgeneric"
+{
+   "$basetexture" "kart_sprites/TireTrack"
+   "$decal" "1"
+   "$decalscale" 0.3
+   //"$alpha" 1
+  // "$additive" 1
+   "$translucent" 1
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+	{
+	"$basetexture" "maps/banshee_boardwalk/banshee_boardwalk_woodfloor"
+	"$bumpmap" "maps/banshee_boardwalk/banshee_boardwalk_woodfloor_bump"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"        
+	//"$translucent" 1
+	}

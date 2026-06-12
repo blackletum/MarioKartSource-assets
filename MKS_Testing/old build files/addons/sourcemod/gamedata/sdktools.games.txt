@@ -1,0 +1,460 @@
+"Games"
+{
+	/* General Temp Entities */
+	"#default"
+	{
+		"#supported"
+		{
+			"game"		"cstrike"
+			"game"		"dod"
+			"game"		"hl2mp"
+			"game"		"ship"
+			"game"		"!Dystopia"
+			"game"		"!Insurgency"
+			"game"		"!Pirates, Vikings and Knights II"
+			"game"		"!SourceForts v1.9.2"
+		}
+
+		"Offsets"
+		{
+			/* Offset into CBaseTempEntity constructor */
+			"s_pTempEntities"
+			{
+				"windows"	"17"
+				"linux"		"27"
+			}
+			"GetTEName"
+			{
+				"windows"	"4"
+				"linux"		"4"
+			}
+			"GetTENext"
+			{
+				"windows"	"8"
+				"linux"		"8"
+			}
+			"TE_GetServerClass"
+			{
+				"windows"	"1"
+				"linux"		"1"
+			}
+		}
+
+		"Signatures"
+		{
+			"CBaseTempEntity"
+			{
+				"library"	"server"
+				"windows"	"\x8B\xC1\x8B\x4C\x24\x04\xC7\x00\x2A\x2A\x2A\x2A\x89\x48\x04\x8B\x15\x2A\x2A\x2A\x2A\x89\x50\x08\xA3\x2A\x2A\x2A\x2A\xC2\x04\x00"
+				"linux"		"@_ZN15CBaseTempEntityC2EPKc"
+			}
+		}
+	}
+	
+	/* General GameRules */
+	"#default"
+	{
+		"#supported"
+		{
+			"game"		"cstrike"
+			"game"		"dod"
+			"game"		"garrysmod"
+			"game"		"hl2mp"
+			"game"		"ship"
+			"game"		"!Dystopia"
+			"game"		"!Insurgency"
+			"game"		"!Pirates, Vikings and Knights II"
+			"game"		"!SourceForts v1.9.2"
+		}
+		
+		"Offsets"
+		{
+			/* Offset into CreateGameRulesObject */
+			"g_pGameRules"
+			{
+				"windows"	"2"
+			}
+		}
+		
+		"Signatures"
+		{
+			/* This signature sometimes has multiple matches, but this
+			 * does not matter as g_pGameRules is involved in all of them.
+			 * The same g_pGameRules offset applies to each match.
+			 *
+			 * Sometimes this block of bytes is at the beginning of the static
+			 * CreateGameRulesObject function and sometimes it is in the middle
+			 * of an entirely different function. This depends on the game.
+			 */
+			"CreateGameRulesObject"
+			{
+				"library"	"server"
+				"windows"	"\x8B\x0D\x2A\x2A\x2A\x2A\x85\xC9\x74\x2A\x8B\x01\x6A\x01\xFF\x50"
+			}
+			"g_pGameRules"
+			{
+				"library"	"server"
+				"linux"		"@g_pGameRules"
+			}
+		}
+	}
+
+	/* Counter-Strike: Source */
+	"cstrike"
+	{
+		"Offsets"
+		{
+			"GiveNamedItem"
+			{
+				"windows"	"329"
+				"linux"		"330"
+			}
+			"RemovePlayerItem"
+			{
+				"windows"	"226"
+				"linux"		"227"
+			}
+			"Weapon_GetSlot"
+			{
+				"windows"	"224"
+				"linux"		"225"
+			}
+			"Ignite"
+			{
+				"windows"	"188"
+				"linux"		"189"
+			}
+			"Extinguish"
+			{
+				"windows"	"189"
+				"linux"		"190"
+			}
+			"Teleport"
+			{
+				"windows"	"98"
+				"linux"		"99"
+			}
+		}
+	}
+
+	/* Day of Defeat */
+	"dod"
+	{
+		"Offsets"
+		{
+			"GiveNamedItem"
+			{
+				"windows"	"328"
+				"linux"		"330"
+			}
+			"RemovePlayerItem"
+			{
+				"windows"	"226"
+				"linux"		"227"
+			}
+			"Weapon_GetSlot"
+			{
+				"windows"	"224"
+				"linux"		"225"
+			}
+			"Ignite"
+			{
+				"windows"	"188"
+				"linux"		"189"
+			}
+			"Extinguish"
+			{
+				"windows"	"189"
+				"linux"		"190"
+			}
+			"Teleport"
+			{
+				"windows"	"98"
+				"linux"		"99"
+			}
+		}
+	}
+	
+	/* Half-Life 2: Deathmatch */
+	"hl2mp"
+	{
+		"Offsets"
+		{
+			"GiveNamedItem"
+			{
+				"windows"	"327"
+				"linux"		"328"
+			}
+			"RemovePlayerItem"
+			{
+				"windows"	"225"
+				"linux"		"226"
+			}
+			"Weapon_GetSlot"
+			{
+				"windows"	"223"
+				"linux"		"224"
+			}
+			"Ignite"
+			{
+				"windows"	"187"
+				"linux"		"188"
+			}
+			"Extinguish"
+			{
+				"windows"	"188"
+				"linux"		"189"
+			}
+			"Teleport"
+			{
+				"windows"	"97"
+				"linux"		"98"
+			}
+		}
+	}
+	
+	/* The Ship */
+	"ship"
+	{
+		"Offsets"
+		{
+			/* CBasePlayer */
+			"GiveNamedItem"
+			{
+				"windows"	"316"
+				"linux"		"317"
+			}
+			"RemovePlayerItem"
+			{
+				"windows"	"220"
+				"linux"		"221"
+			}
+			"Weapon_GetSlot"
+			{
+				"windows"	"218"
+				"linux"		"219"
+			}
+			"Ignite"
+			{
+				"windows"	"180"
+				"linux"		"181"
+			}
+			"Extinguish"
+			{
+				"windows"	"181"
+				"linux"		"182"
+			}
+			"Teleport"
+			{
+				"windows"	"100"
+				"linux"		"101"
+			}
+			
+			/* Temp Entities */
+			"TE_GetServerClass"
+			{
+				"windows"	"0"
+				"linux"		"0"
+			}
+		}
+	}
+	
+	/* Dsytopia */
+	"!Dystopia"
+	{
+
+		"Offsets"
+		{
+			/* CBasePlayer */
+			"GiveNamedItem"
+			{
+				"windows"	"331"
+				"linux"		"332"
+			}
+			"RemovePlayerItem"
+			{
+				"windows"	"229"
+				"linux"		"230"
+			}
+			"Weapon_GetSlot"
+			{
+				"windows"	"227"
+				"linux"		"228"
+			}
+			"Ignite"
+			{
+				"windows"	"191"
+				"linux"		"192"
+			}
+			"Extinguish"
+			{
+				"windows"	"192"
+				"linux"		"193"
+			}
+			"Teleport"
+			{
+				"windows"	"100"
+				"linux"		"101"
+			}
+
+			/* Offset into CBaseTempEntity constructor.
+			 * On Windows Dsytopia is heavily inlined; we use the function 
+			 * surrounding "aCouldnTFindTem" in IDA instead.
+			 */
+			"s_pTempEntities"
+			{
+				"windows"	"70"
+				"linux"		"29"
+			}
+		}
+
+		"Signatures"
+		{
+			/* On Windows Dsytopia is heavily inlined; we use the function 
+			 * surrounding "aCouldnTFindTem" in IDA instead.
+			 */
+			"CBaseTempEntity"
+			{
+				"library"	"server"
+				"windows"	"\x81\xEC\x84\x00\x00\x00\x56\x8B\xF1\x8B\x46\x6C\x57\x8D\x7E\x6C\x8D\x4C\x24\x08\x83\xC8\x20\x51\x89\x44\x24\x0C\xE8\x2A\x2A\x2A"
+			}
+
+			/* Dystopia always has to be different, doesn't it
+			 *
+			 * This is very similar to the general signature, except that
+			 * it does "mov edx, [eax+2Ch]" before making a call rather than
+			 * doing "call dword ptr [eax+2Ch]"
+			 */
+			"CreateGameRulesObject"
+			{
+				"library"	"server"
+				"windows"	"\x8B\x0D\x2A\x2A\x2A\x2A\x85\xC9\x74\x2A\x8B\x01\x8B\x50\x2A\x6A\x01\xFF\xD2"
+			}
+		}
+	}
+
+	/* Insurgency */
+	"!Insurgency"
+	{
+		"Offsets"
+		{
+			/* CBasePlayer */
+			"Ignite"
+			{
+				"windows"	"174"
+				"linux"		"175"
+			}
+			"Extinguish"
+			{
+				"windows"	"175"
+				"linux"		"176"
+			}
+			"Teleport"
+			{
+				"windows"	"90"
+				"linux"		"91"
+			}
+
+			/* Temp Entities */
+			"s_pTempEntities"
+			{
+				"linux"		"28"
+			}
+		}
+	}
+	
+	/* Pirates, Vikings and Knights II */
+	"!Pirates, Vikings and Knights II"
+	{
+		"Offsets"
+		{
+			/* CBasePlayer */
+			"GiveNamedItem"
+			{
+				"windows"	"328"
+				"linux"		"329"
+			}
+			"RemovePlayerItem"
+			{
+				"windows"	"226"
+				"linux"		"227"
+			}
+			"Weapon_GetSlot"
+			{
+				"windows"	"224"
+				"linux"		"225"
+			}
+			"Ignite"
+			{
+				"windows"	"188"
+				"linux"		"189"
+			}
+			"Extinguish"
+			{
+				"windows"	"189"
+				"linux"		"190"
+			}
+			"Teleport"
+			{
+				"windows"	"98"
+				"linux"		"99"
+			}
+			
+			/* Temp Entities */
+			"s_pTempEntities"
+			{
+				"linux"		"29"
+			}
+		}
+	}
+
+	/* SourceForts 1.9.2 */
+	"!SourceForts v1.9.2"
+	{
+		"Offsets"
+		{
+			/* CBasePlayer */
+			"GiveNamedItem"
+			{
+				"windows"	"294"
+				"linux"		"295"
+			}
+			"RemovePlayerItem"
+			{
+				"windows"	"207"
+				"linux"		"208"
+			}
+			"Weapon_GetSlot"
+			{
+				"windows"	"205"
+				"linux"		"206"
+			}
+			"Ignite"
+			{
+				"windows"	"170"
+				"linux"		"171"
+			}
+			"Extinguish"
+			{
+				"windows"	"171"
+				"linux"		"172"
+			}
+			"Teleport"
+			{
+				"windows"	"90"
+				"linux"		"91"
+			}
+
+			/* Temp Entities */
+			"s_pTempEntities"
+			{
+				"linux"		"29"
+			}
+			"TE_GetServerClass"
+			{
+				"windows"	"0"
+				"linux"		"0"
+			}
+		}
+	}
+}

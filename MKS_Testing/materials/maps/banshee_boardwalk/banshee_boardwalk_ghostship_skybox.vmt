@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "maps/banshee_boardwalk/banshee_boardwalk_ghostship_skybox"
+	"$translucent" 1
+}

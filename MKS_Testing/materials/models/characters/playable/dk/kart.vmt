@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/characters/playable/dk/kart"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+	
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[1 2 5]"
+	"$halflambert" "1"
+
+	
+	"$rimlight" "1"												
+	"$rimlightexponent" "4"										
+	"$rimlightboost" "4"
+}

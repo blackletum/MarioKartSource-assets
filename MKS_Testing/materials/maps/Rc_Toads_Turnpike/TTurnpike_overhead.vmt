@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+	{
+	"$basetexture" "maps/Rc_Toads_Turnpike/TTurnpike_overhead"
+      	 "$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+	"$translucent" 1
+	}

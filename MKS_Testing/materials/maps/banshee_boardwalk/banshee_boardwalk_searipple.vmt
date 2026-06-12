@@ -1,0 +1,15 @@
+"unlitGeneric" 
+{ 
+    "$basetexture" "maps/banshee_boardwalk/banshee_boardwalk_searipple"
+"$translucent" 1 
+
+    "Proxies" 
+    { 
+        "TextureScroll" 
+        { 
+            "texturescrollvar" "$basetexturetransform" 
+            "texturescrollrate" 0.1
+            "texturescrollangle" 90
+        }    
+    } 
+}

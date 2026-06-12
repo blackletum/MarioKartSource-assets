@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/HUD/startscene/start-bright"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

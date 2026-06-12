@@ -1,0 +1,5 @@
+"PrettyColor"
+{
+	"$baseTexture"			"models/characters/playable/koopa/koopakart"
+	"$model" 			1
+}

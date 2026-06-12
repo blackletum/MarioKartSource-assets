@@ -1,0 +1,26 @@
+mn_PhongEx
+{
+	"$basetexture" 	"models/sphere/darknoise"
+	"$bumpmap"	"shared/n_flat"
+
+	"$translucent" 1	//now selfillum+translucent can be used
+
+	"$phong" 1
+	"$PHONGEXPONENT" "80"
+	"$PHONGEXPONENTMIN" "0"
+	"$PHONGBOOST" "0.85"
+
+	"$usephongexponenttexture" 1
+	"$HxEM" "models/sphere/HxEM" //in Alpha is the Exponenttexture
+
+//"$halflambert" N/A
+
+//	"$selfillum" 1
+	"$mnselfillum" 1
+	"$selfillumtint" "[4 9 2]"
+	"$heighttexture" "models/sphere/crack_HxEM" //in Alpha is the selfillummask
+
+	"$lightwarptexture" "models/sphere/lightgradient"	//in Alpha is the falloff transition map
+
+	"$model" 		1
+}

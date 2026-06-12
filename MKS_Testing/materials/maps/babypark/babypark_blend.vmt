@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+   "$basetexture" "maps\babypark\babypark_bluefloorcorner"
+   "$basetexture2" "maps\babypark\babypark_pinkfloorcorner"
+   "%tooltexture" "maps\babypark\babypark_bluefloorcorner"
+   "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0"
+   "$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+   "%keywords" "mks blend"
+}

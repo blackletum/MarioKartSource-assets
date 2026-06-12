@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/characters/nonplayable/Pianta/Pianta_Red"
+	"$alphatest"			1
+	"$nocull"				1
+}

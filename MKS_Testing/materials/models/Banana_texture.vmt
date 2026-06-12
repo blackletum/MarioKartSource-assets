@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$color"			"[1 1 1]"
+	"$baseTexture"			"models/Banana_texture"
+      "$bumpmap" "models/Banana_texture_bump"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+
+"$phong" "1"
+"$phongboost" "1"
+"$phongfresnelranges" "[.1 .1 .1]"
+"$phongexponent" "5"
+"$phongalbedotint" "1"
+}

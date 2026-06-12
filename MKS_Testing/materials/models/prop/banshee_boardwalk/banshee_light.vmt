@@ -1,0 +1,7 @@
+"vertexLitGeneric"
+{
+	"$basetexture" "models/prop/banshee_boardwalk/banshee_light"
+        "$bumpmap" "models/prop/banshee_boardwalk/banshee_light_bump"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"     
+}

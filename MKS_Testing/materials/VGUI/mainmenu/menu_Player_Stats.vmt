@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"VGUI/mainmenu/menu_Player_Stats"
+	"nonice" "1"
+ 	"nolod" "1"
+ 	"nomip" "1"
+	"$translucent" 1 
+}

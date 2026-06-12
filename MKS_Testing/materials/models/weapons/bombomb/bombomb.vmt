@@ -1,0 +1,12 @@
+mn_PhongEx
+{
+	"$baseTexture"			"models/weapons/bombomb/bombomb"
+      "$bumpmap" "models/weapons/bombomb/bombomb_normal"
+
+	
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[1 2 5]"
+	"$halflambert" "1"
+}

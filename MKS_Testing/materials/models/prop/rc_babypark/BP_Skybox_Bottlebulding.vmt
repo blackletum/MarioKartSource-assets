@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/prop/rc_babypark/BP_Skybox_bottlebulding"
+       	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+}

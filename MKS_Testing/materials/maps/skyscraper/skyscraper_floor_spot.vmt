@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+	{
+	"$basetexture" "maps/skyscraper/skyscraper_floor_spot"
+	"$decalscale" 0.25
+	"$translucent" 1
+	"$decal" 1
+	"%keywords" "mks"
+}

@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	$basetexture "maps/ba_ngc_luigis_mansion/overlay"
+	$translucent 1
+	$decal 1
+}

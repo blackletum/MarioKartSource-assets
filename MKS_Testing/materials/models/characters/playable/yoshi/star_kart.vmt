@@ -1,0 +1,7 @@
+"PrettyColor"
+{
+	
+	"$baseTexture"			"models/characters/playable/yoshi/kart_yoshi_texture"
+	"$bumpmap" 			"models/characters/playable/yoshi/kart_texture_normal"
+	"$model" 1
+}

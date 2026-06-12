@@ -1,0 +1,13 @@
+mn_PhongEx
+{
+	"$basetexture" 	"models/sphere/plasma"
+	"$bumpmap"	"models/sphere/plasma_normal"
+
+	"$mnselfillum" 1
+
+	"$falloffselfillum" "0.930"
+	"$selfillumtint" "[0.2 0.4 0.9]"
+	"$lightwarptexture" "models/sphere/lightgradient"	//in Alpha is the falloff transition map
+
+	"$model" 		1
+}

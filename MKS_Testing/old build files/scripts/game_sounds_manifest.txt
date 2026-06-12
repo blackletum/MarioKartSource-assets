@@ -1,0 +1,9 @@
+game_sounds_manifest
+{
+	"preload_file"		"scripts/game_sounds_effects.txt"
+	"preload_file"		"scripts/game_sounds_kartengine.txt"
+	"preload_file"		"scripts/game_sounds_misc.txt"
+}
+
+
+

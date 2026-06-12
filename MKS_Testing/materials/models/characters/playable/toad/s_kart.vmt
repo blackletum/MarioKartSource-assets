@@ -1,0 +1,6 @@
+"PrettyColor"
+{
+	"$basetexture" "models/characters/playable/toad/kart"
+	"$colormap" "models/characters/playable/toad/s_kart"
+	$model "1"
+}

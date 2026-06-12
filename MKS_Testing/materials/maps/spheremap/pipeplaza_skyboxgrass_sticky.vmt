@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "maps/ba_ngc_pipeplaza/pipeplaza_skyboxgrass"
+	"$surfaceprop" "sticky"
+}

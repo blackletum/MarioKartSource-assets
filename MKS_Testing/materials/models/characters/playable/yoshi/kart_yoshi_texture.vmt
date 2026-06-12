@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/characters/playable/yoshi/kart_yoshi_texture"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				0
+	"$bumpmap" 			"models/characters/playable/yoshi/kart_texture_normal"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/characters/playable/mario/Mario_Texture"
+	"$bumpmap" "models/characters/playable/mario/Mario_Texture_normal"
+	"$model" 1
+}
